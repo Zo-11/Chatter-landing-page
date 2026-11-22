@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="An accessible HTML-only sign-in form modeled on the AltSchool Africa student portal." />
+  <title>Sign in | AltSchool Africa</title>
+</head>
+<body>
+  <header>
+    <p><a href="index.html" aria-label="Return to the first assignment">Chatter — First Assignment</a></p>
+    <nav aria-label="Global navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html" aria-current="page">AltSchool application form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="welcome-heading">
+      <p>AltSchool Africa</p>
+      <h1 id="welcome-heading">Africa’s Best Innovative Online School</h1>
+      <p>Our programmes are designed to adapt to your time, goals, and resources, empowering you to learn on your own terms.</p>
+      <p>Accredited by ASIC (Accreditation Service for International Schools, Colleges, and Universities).</p>
+    </section>
+
+    <section aria-labelledby="sign-in-heading">
+      <nav aria-label="Account options">
+        <ul>
+          <li><a href="https://portal.altschoolafrica.com/auth/signin?callbackUrl=/&amp;tab=signup">Sign up</a></li>
+          <li><a href="#sign-in" aria-current="page">Sign in</a></li>
+        </ul>
+      </nav>
+
+      <h2 id="sign-in-heading">Sign in</h2>
+      <p>Enter your email address and password to securely log in to the AltSchool Student Portal.</p>
+
+      <form id="sign-in">
+        <fieldset>
+          <legend>Student portal sign in</legend>
+          <p>
+            <label for="email">Email</label><br />
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </p>
+          <p>
+            <label for="password">Password</label><br />
+            <input id="password" name="password" type="password" autocomplete="current-password" required />
+          </p>
+          <button type="button">Proceed to Dashboard</button>
+        </fieldset>
+      </form>
+
+      <p>Forgot your password? <a href="https://portal.altschoolafrica.com/auth/forgot-password">Reset now</a>.</p>
+      <p>Or</p>
+      <button type="button">Login with Google</button>
+      <p>This HTML practice form does not send or save the information you enter.</p>
+    </section>
+  </main>
+
+  <footer>
+    <address>Address: Replace this line with your street address, city, and country.</address>
+    <p>Copyright &copy; 2026 AltSchool Application Form.</p>
+  </footer>
+</body>
+</html>
