@@ -61,7 +61,7 @@ button, a, summary { -webkit-tap-highlight-color: transparent; }
 .hero-platform { position: absolute; z-index: 0; width: 78%; height: 78px; left: 11%; bottom: -30px; border-radius: 50%; background: linear-gradient(180deg, #edf1f5, #fff); box-shadow: 0 7px 7px -4px #9ca7b9; }
 
 .stats { min-height: 312px; position: relative; z-index: 2; display: flex; align-items: center; background: #f8fafc; }
-.stats::before { content: ""; position: absolute; z-index: -1; left: -4%; top: -78px; width: 108%; height: 125px; border-radius: 50% 50% 0 0 / 65% 65% 0 0; background: #f8fafc; }
+.stats::before { content: ""; position: absolute; z-index: -1; left: 0; top: -78px; width: 100%; height: 125px; border-radius: 50% 50% 0 0 / 65% 65% 0 0; background: #f8fafc; }
 .stats-inner { width: min(1166px, calc(100% - 64px)); margin: 0 auto; display: grid; grid-template-columns: 1.45fr repeat(4, 1fr); gap: 28px; align-items: start; padding: 30px 0 10px; }
 .stats h2 { margin: 0; font-size: 36px; line-height: 1.32; font-weight: 600; letter-spacing: -.5px; }
 .stat { display: flex; flex-direction: column; gap: 0; }
